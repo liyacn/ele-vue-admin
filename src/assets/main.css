@@ -1,0 +1,41 @@
+.el-pagination {
+  margin-top: 16px;
+  justify-content: center;
+}
+.el-notification {
+  word-break: break-all;
+}
+.justify {
+  width: 100%;
+  justify-content: space-between;
+}
+.center {
+  text-align: center;
+}
+.space-block {
+  display: flex;
+}
+.space-inline {
+  display: inline-flex;
+}
+.space-block,
+.space-inline {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.border-img {
+  max-width: 100%;
+  border: 1px dashed var(--el-border-color);
+  border-radius: 6px;
+  vertical-align: middle;
+}
+.auto-width {
+  max-width: 100%;
+}
+.full-width {
+  width: 100%;
+}
+.drag {
+  cursor: move;
+}
